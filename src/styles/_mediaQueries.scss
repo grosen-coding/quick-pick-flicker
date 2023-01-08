@@ -1,0 +1,404 @@
+@media (max-height: 1000px) {
+  .modalTextContent {
+    h3 {
+      font-size: 3rem;
+      text-align: left;
+      letter-spacing: 1.5px;
+    }
+  }
+}
+
+@media (max-width: 1280px) {
+  .modalTextContent {
+    h3 {
+      font-size: 2.2rem;
+    }
+  }
+
+  .youTubeSide {
+    height: 100%;
+  }
+}
+
+// 1024px STYLING
+
+@media (max-width: 1024px) {
+  .userList {
+    ul {
+      li {
+        width: 22%;
+
+        img {
+          min-width: 150px;
+        }
+      }
+    }
+  }
+
+  .resultContainer {
+    img {
+      min-width: 325px;
+    }
+  }
+
+  .movieListHeader {
+    padding: 20px 40px 20px 0;
+  }
+
+  .randomPickModalContainer {
+    max-height: 900px;
+
+    img {
+      width: 90%;
+    }
+  }
+
+  .modalContainer {
+    max-height: 65%;
+  }
+
+  .modalImageContent {
+    img {
+      width: 100%;
+      margin-top: 100px;
+      margin-left: 10px;
+    }
+
+    h5 {
+      margin-bottom: 20px;
+      margin-left: 10px;
+      letter-spacing: 1.2px;
+    }
+  }
+}
+
+// 834px STYLING
+
+@media (max-width: 834px) {
+  h1 {
+    padding-top: 50px;
+  }
+
+  .headerForm {
+    form {
+      width: 60%;
+    }
+  }
+
+  .modal {
+    height: 140vh;
+  }
+
+  .modalTextContent {
+    h3 {
+      text-align: left;
+      letter-spacing: 1.5px;
+    }
+
+    p {
+      line-height: 1.1;
+    }
+  }
+
+  .modalImageContent {
+    img {
+      margin-top: 150px;
+    }
+
+    h5 {
+      margin-bottom: 200px;
+    }
+  }
+
+  .addButton {
+    margin-bottom: 250px;
+  }
+
+  .movieListHeader {
+    min-height: 30%;
+  }
+
+  .userList {
+    ul {
+      li {
+        width: 22%;
+        margin: 10px;
+      }
+    }
+  }
+}
+
+// 480px STLYING
+
+@media (max-width: 480px) {
+  .modal > div {
+    padding: 0;
+    height: 95vh;
+  }
+
+  h1 {
+    padding-top: 100px;
+  }
+
+  .headerForm {
+    form {
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      input {
+        height: 60px;
+        padding: 0 20px;
+      }
+
+      button {
+        height: 60px;
+      }
+    }
+  }
+
+  .modalImageContent {
+    width: 125%;
+
+    h5 {
+      padding: 0;
+      margin-bottom: 380px;
+      margin-left: 100px;
+    }
+
+    img {
+      margin-bottom: 25px;
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+  .addButton {
+    margin-bottom: 320px;
+    margin-left: 75px;
+    button {
+      width: 150px;
+    }
+  }
+  .modalContainer {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .movieListHeader {
+    h2 {
+      padding-right: 0;
+    }
+  }
+
+  .userList {
+    ul {
+      li {
+        width: 45%;
+      }
+    }
+
+    h2 {
+      font-size: 1.6rem;
+    }
+  }
+
+  .userListContainer {
+    padding-top: 50px;
+
+    form {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      button {
+        width: 90%;
+        height: 70px;
+      }
+
+      fieldset {
+        width: 80%;
+        line-height: 1.8;
+        padding: 10px 0;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .resultContainer {
+    li {
+      width: 45%;
+
+      img {
+        min-width: 0;
+      }
+    }
+  }
+
+  .movieDetailsDiv {
+    flex-direction: column;
+  }
+
+  .youTubeSide {
+    display: none;
+  }
+
+  .modalLeft {
+    width: 90%;
+  }
+
+  .modalRight {
+    height: 45%;
+  }
+
+  .modalTextContent {
+    width: 100%;
+    padding: 50px 0 0 0;
+
+    h3 {
+      font-size: 2rem;
+    }
+
+    p {
+      display: none;
+    }
+  }
+
+  .randomPickModalContainer {
+    width: 100%;
+  }
+
+  .menu-wrap .menu > div {
+    width: 100%;
+  }
+
+  .randomPickModal {
+    width: 100%;
+
+    img {
+      width: 110%;
+    }
+  }
+}
+
+// 414px STYLING
+
+@media (max-width: 414px) {
+  h1 {
+    padding-top: 40px;
+  }
+
+  .movieList {
+    ul {
+      padding-left: 0;
+
+      li {
+        width: 47%;
+        margin: 5px;
+      }
+    }
+  }
+
+  .randomPickModalContainer {
+    padding: 10px;
+  }
+
+  .randomPickModal img {
+    width: 95%;
+  }
+
+  .modalRight {
+    width: 50%;
+    height: 100%;
+  }
+
+  .addButton {
+    margin-bottom: 370px;
+  }
+}
+
+// 380px STYLING
+
+@media (max-width: 380px) {
+  .modalTextContent {
+    h3 {
+      font-size: 1.4rem;
+      padding-top: 0;
+    }
+  }
+
+  .movieList {
+    ul {
+      li {
+        width: 44%;
+        img {
+          width: 50%;
+          min-width: 135px;
+        }
+      }
+    }
+  }
+
+  .modalImageContent {
+    width: 80%;
+
+    h5 {
+      margin-bottom: 260px;
+      padding-left: 50px;
+    }
+  }
+
+  .menu-wrap .menu > div {
+    height: 110vh;
+  }
+
+  .userListContainer {
+    padding-top: 0;
+  }
+
+  .movieListHeader {
+    min-height: 45%;
+
+    h2 {
+      padding-left: 10px;
+    }
+  }
+
+  footer {
+    font-size: 0.8rem;
+  }
+}
+
+// 320px STYLING
+
+@media (max-width: 320px) {
+  .movieList {
+    ul {
+      li {
+        width: 45%;
+        img {
+          width: 50%;
+          min-width: 135px;
+        }
+      }
+    }
+  }
+
+  .modalImageContent {
+    width: 100%;
+    margin-bottom: 30px;
+
+    h5 {
+      margin-bottom: 260px;
+      padding-left: 80px;
+    }
+
+    img {
+      margin-bottom: 60px;
+    }
+  }
+}

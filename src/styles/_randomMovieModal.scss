@@ -1,0 +1,36 @@
+.randomPickModal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: -20px;
+  left: 0;
+  z-index: 12000;
+  width: 100%;
+  height: 95%;
+  background: transparent;
+  transition: all 0.4s ease;
+
+  img {
+    width: 70%;
+    display: block;
+    outline: 1px solid #000;
+  }
+}
+
+.randomPickModalContainer {
+  background-color: $primaryColor;
+  opacity: 1;
+  border-radius: 20px;
+  height: 100%;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.4s ease;
+  position: absolute;
+  top: 20px;
+  border: 3px solid #000;
+  box-shadow: 5px 5px 350px 350px rgba(0, 0, 0, 0.85);
+}

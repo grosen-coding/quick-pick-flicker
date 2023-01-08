@@ -1,0 +1,97 @@
+// Icons Styling
+
+.closeElementButton {
+  padding: 0;
+  border: none;
+}
+
+.closeElementIcon {
+  font-size: 3rem;
+  color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  transition: all 0.2s ease-in-out;
+  z-index: 1;
+}
+
+.closeElementIcon:hover,
+.closeElementIcon:focus {
+  color: rgba(0, 0, 0, 0.9);
+  cursor: pointer;
+  transform: rotate(180deg) scale(1.1);
+  transition-duration: 0.2s;
+}
+
+.trashIcon {
+  color: red;
+  font-size: 2rem;
+  transition: all 0.2s ease-in-out;
+  opacity: 0.8;
+}
+
+.trashIcon:hover {
+  transform: rotateY(360deg) scale(1.2);
+  transition-duration: 0.1s;
+  opacity: 1;
+  cursor: scale(1.5);
+}
+
+.randomSelectionButton {
+  background: rgb(13, 151, 13);
+  font-size: 1.3rem;
+  width: 300px;
+  padding: 10px 10px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  outline: 1px solid #000;
+  border: none;
+
+  button {
+    border: none;
+      border-radius: 15px;
+  }
+}
+
+.randomSelectionButton:hover {
+  background: rgb(18, 209, 18);
+}
+
+.addButton {
+  position: absolute;
+  bottom: 60px;
+  padding: 0;
+  border: none;
+}
+
+.playButton {
+  margin: 20px 0;
+  background: rgb(13, 151, 13);
+  font-size: 1.3rem;
+  width: 300px;
+  padding: 10px 10px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1.2px;
+  outline: 1px solid #000;
+  border: none;
+
+  button {
+    border: none;
+      border-radius: 15px;
+  }
+}
+
+.playButton:hover {
+  background: rgb(18, 209, 18);
+}
+
+.chooseAgainButton {
+  height: 30px;
+  width: 150px;
+}

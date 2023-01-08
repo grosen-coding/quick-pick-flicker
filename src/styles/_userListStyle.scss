@@ -1,0 +1,150 @@
+// User Movie List Styling
+
+.userListContainer {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  border-radius: 20px;
+  position: relative;
+
+  h3 {
+    color: rgb(58, 56, 56);
+    text-shadow: 4px 4px $primaryColor;
+    letter-spacing: 2.5px;
+    font-weight: 800;
+    padding: 0;
+    position: relative;
+
+    span {
+      color: $primaryColor;
+      text-shadow: 3px 3px 20px rgba(0, 0, 0, 1);
+      letter-spacing: 3.5px;
+      font-weight: 800;
+      position: relative;
+      bottom: 5px;
+    }
+  }
+  form {
+    background: $tertiaryColor;
+    text-align: center;
+    border: 3px solid #000;
+    border-radius: 10px;
+    margin: 20px 0;
+    position: relative;
+
+    select {
+      margin: 0 8px;
+    }
+
+    button {
+      height: 40px;
+      width: 200px;
+    }
+  }
+}
+
+.filterButtonDiv {
+  padding: 15px 0;
+
+  button {
+    text-transform: uppercase;
+    height: 40px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+  }
+}
+.userList {
+  display: flex;
+  background: rgb(228, 226, 226);
+  flex-wrap: wrap;
+  width: 95%;
+  height: auto;
+  margin: 20px 0;
+  border: 3px solid #000;
+  overflow-x: hidden;
+  text-align: center;
+  box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.4);
+}
+
+.movieListHeader {
+  display: flex;
+  width: 100%;
+  max-height: 25%;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px 10px;
+
+  h2 {
+    text-shadow: none;
+    text-transform: uppercase;
+    text-align: left;
+    letter-spacing: 3.5px;
+    font-weight: bold;
+    min-width: 70%;
+    font-size: 3rem;
+    color: rgb(15, 15, 15);
+    padding-left: 40px;
+  }
+}
+
+.movieList {
+  height: 75%;
+  width: 95%;
+  margin: 0 auto;
+  font-family: $bodyFont;
+  font-size: 2rem;
+  color: rgb(158, 3, 3);
+
+  ul {
+    display: flex;
+    padding-left: 10px;
+    flex-wrap: wrap;
+
+    li {
+      width: 18%;
+      transition: all 0.2s ease-in-out;
+      position: relative;
+      margin: 10px;
+
+      img {
+        width: 100%;
+        height: 100%;
+        min-width: 200px;
+        max-height: 430px;
+        outline: 1px solid #000;
+      }
+
+      button {
+        position: absolute;
+        background: #000;
+        height: 55px;
+        width: 55px;
+        border-radius: 50%;
+        padding: 0;
+        border: none;
+        right: 15px;
+        top: 15px;
+      }
+
+      button:hover,
+      button:focus {
+        cursor: pointer;
+      }
+    }
+
+    li:hover,
+    li:focus {
+      transform: scale(1.1);
+      cursor: pointer;
+      transition-duration: 0.2s;
+      z-index: 5;
+    }
+
+    .movieListItem {
+      display: flex;
+    }
+  }
+}

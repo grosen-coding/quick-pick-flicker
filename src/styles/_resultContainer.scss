@@ -1,0 +1,32 @@
+/* Results Container Styling */
+
+
+.poster {
+  display: flex;
+}
+
+.resultContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 80px;
+
+  li {
+    margin: 6px;
+  }
+
+  img {
+    width: 100%;
+    display: block;
+    outline: 1px solid black;
+    min-width: 300px;
+    max-height: 430px;
+  }
+  img:hover,
+  img:focus {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border: 5px solid $primaryColor;
+  }
+}
